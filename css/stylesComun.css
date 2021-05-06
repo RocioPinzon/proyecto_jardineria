@@ -23,6 +23,17 @@ main{
    
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+main h2{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: 'Kanit', sans-serif;    
+}
 
 header, footer{
     width: 100%;
