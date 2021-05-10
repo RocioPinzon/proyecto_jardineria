@@ -8,7 +8,7 @@
 
 body{
     
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
 }
 
@@ -23,28 +23,10 @@ main{
    
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
-
-
-main h2{
-
-    flex-shrink: 1;
-    width: 100%;
-    padding: 20px;
-    margin-bottom: 50px;
-    font-size: 40px;
-    text-transform: uppercase;
-    font-weight: lighter;
-    font-family: 'Kanit', sans-serif;
-    
-}
-
 header, footer{
+
     width: 100%;
     margin: 0 auto;
-}
-
-header,footer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -107,6 +89,10 @@ footer{
 
 }
 
+footer .creditos{
+
+}
+
 footer .redesSociales{
 
     width: 60px;
@@ -115,6 +101,7 @@ footer .redesSociales{
     flex-direction: row;
     justify-content: center;
 }
+
 
 footer div img{
 
