@@ -100,6 +100,13 @@ header nav ul li a{
     
 }
 
+header .active {
+    
+    background: rgba(57, 127, 62, 0.8);
+    color: #fff;
+
+}
+
 header nav ul li a:hover {
     
     background: rgba(57, 127, 62, 0.6);
