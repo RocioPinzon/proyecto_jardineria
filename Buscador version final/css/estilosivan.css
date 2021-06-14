@@ -1,0 +1,90 @@
+.contenedor{
+    margin: auto;
+    max-width: 1500px;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    
+    
+
+    display: flex;
+    flex-direction: row;
+}
+.contenedor .titulo1{
+    text-align: center;
+    font-size: 60px;
+
+}
+.main {
+    background-color:#e7e5df;
+    padding: 2em;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.art img{
+    width: 100%;
+    padding: 1em;
+}
+.img{
+    width: 100%;
+}
+
+.art{
+    padding: 2em;
+}
+
+
+.art .boton a{
+    text-decoration: none;
+    color: #fff;
+    background: #68A357;
+    padding: 1em;
+}
+.boton{
+    padding: 1em;
+}
+
+.art .boton a:hover{
+    text-decoration: none;
+    color: #fff;
+    background: #754C2F;
+}
+
+.art p{
+    padding: 1em;
+}
+
+aside {
+    position: sticky;
+    top: 0;
+    width: 40%;
+    height: 1000px;
+    background-color:#d3d0cb;
+    padding: 1em;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+aside .ad {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    padding:2.5em;
+    background: #68A357;
+}
+
+@media only screen and (max-width: 800px){
+    .contenedor{
+        flex-direction: column;
+    }
+    
+    aside{
+        width: 100%;
+    }
+}
