@@ -38,4 +38,25 @@ main .info{
 }
 h2{
     text-align: center;
-    font-size: 30px;}
+    font-size: 30px;
+    padding-bottom: 50px;}
+.info article a{
+        text-align: center;
+        color: black;
+        text-decoration: none;
+    }
+.info article a:hover{
+        text-decoration: underline;
+        color: green;
+    }
+.boton{
+    margin-top: 40px;
+    width: 25%;
+    display: flex;
+    float: left;
+    margin-top: 100px;
+}
+.boton img{
+    width: 100px;
+    height: auto;
+}
