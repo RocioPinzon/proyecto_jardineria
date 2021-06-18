@@ -1,0 +1,200 @@
+#contenedor {
+	display:flex;
+	flex-direction: row;
+    width: 100%;
+	background-color: white;
+	position: relative;
+
+}
+
+#contenedor .contenedorSection{
+	display:flex;
+	position: relative;
+	flex-direction:row;
+    width: 1000px;
+	float:  left;
+	margin: 0px auto;
+	padding: 100px 0px 100px 0px;
+	justify-content: space-around;
+}
+
+.seccionTituloBackground{
+	display:flex;
+	position: relative;
+	flex-direction:row;
+    width: 100%;
+	float:  left;
+	margin: 0 auto;
+	padding: 20px;
+	justify-content: space-around;
+	background:rgba(57, 127, 62, 0.8);
+	align-items: center
+	
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+#contenedor .seccionTituloBackground .titulo{
+	width: 100%;
+    padding: 30px 20px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: 'Kanit', sans-serif;
+	color:#fff;
+	text-align: center;
+}
+
+#contenedor .contenedorSection .infoSeccion{
+
+	display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+    flex-direction: column;
+	justify-content:center;
+}
+
+#contenedor .contenedorSection .infoSeccion .contenedorImg{
+
+	width: 50px;
+	margin: 0 auto;
+
+}
+
+#contenedor .contenedorSection .infoSeccion img{
+
+	width: 100%;
+	vertical-align: top;
+}
+
+#contenedor .contenedorSection .infoSeccion article{
+
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px 0px;
+	font-size: 18px;
+	text-align: center;
+}
+
+#contenedor .contenedorSection .infoSeccion article h3{
+
+	width: 100%;
+	margin: 0 auto;
+    padding: 20px 0px 10px 0px;   
+
+}
+
+#contenedor .contenedorSection .infoSeccion article h3:hover{
+
+    color: rgba(57, 127, 62, 1);
+    text-decoration: none;
+}
+
+/*	SECCION 2 - FORMULARIO Y LOCALIZACION*/
+
+.centradoTitulosForm{
+
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#contenedor .contenedorSection .infoSeccion{
+
+	display: flex;
+    margin: 0 auto;
+	width: 100%;
+    padding: 10px;
+    flex-direction: column;
+	justify-content:center;
+}
+
+form{
+	max-width:800px;
+	width: 100%;
+	padding:20px;
+	border-radius:10px;
+	margin:0 auto;
+	border: 1px solid #ccc;
+	text-align: center;
+	background-image: url(../img/contacto/flores-contacto.jpg);
+
+}
+
+
+label {
+	font-weight: bold;
+
+}
+
+
+
+legend {
+	padding: 10px 20px;
+    border: 1px solid #008000;
+    text-align: center;
+}
+input,textarea{
+	padding: 5px;
+	width: 100%;
+	max-width: 600px;
+	
+	margin: 0 auto;
+}
+
+form input[type=submit] {
+		max-width: 600px;
+		background:rgba(57, 127, 62, 0.8);
+		padding: 10px 16px;
+		width: 100%;
+		margin-top:32px;
+		border-radius:5px;
+		border:1px solid #000;
+		color:#fff;
+
+}
+
+input[type=submit]:hover{
+	max-width: 600px;
+	background:#fff;
+	width: 100%;
+	color: rgba(57, 127, 62);
+	font-weight: 600;
+	margin-top:32px;
+}
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #ccc;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #ccc;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	resize:none;
+
+}

@@ -1,0 +1,62 @@
+aside{
+    margin-top: 40px;
+    width: 25%;
+    display: flex;
+    float: left;
+    background-color: green;
+}
+aside p{
+    color: white;
+    padding: 10px;
+}
+
+main{
+    width: 70%;
+    display: flex;
+    float: left;
+    max-width: 1400px;
+}
+main .info{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.info img{
+    width: 100%;
+    height: 100%;
+   padding: 2em;
+}
+.info article{
+    width: 35%;
+    height: 50%; 
+    margin: auto;
+    padding-bottom: 20px;  
+}
+.info article h3{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;}
+.info article a{
+        text-align: center;
+        color: black;
+        text-decoration: none;
+    }
+.info article a:hover{
+        text-decoration: underline;
+        color: green;
+    }
+.boton{
+    margin-top: 40px;
+    width: 25%;
+    display: flex;
+    float: left;
+    margin-top: 100px;
+}
+.boton img{
+    width: 100px;
+    height: auto;
+}

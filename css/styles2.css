@@ -1,0 +1,247 @@
+/*   Contenedor Imagen Efecto Parallax   */
+
+main .seccionColumnas{
+
+    position: relative;
+    width: 100%;
+}
+
+main .section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+main .efectoParallax{
+    height: 500px;
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/efecto-parallax-cactus.jpg);
+
+}
+
+main .efectoParallax img{
+    width: 100%; 
+}
+
+main .efectoParallax h2{
+
+    width: 100%;
+    max-width: 600px;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: left;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    top: 40%;
+    left: 15%;
+    margin: 0px;
+    height: 50px;
+    position: absolute;
+    padding: 20px;
+}
+
+  
+
+/*  Contenedor Consejos */
+
+/*  Contenedor Principal de Consejos  */
+
+main .consejos{
+    position: relative;
+    float: left;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding:80px 50px;
+    margin: 0 auto;
+    width: 100%;
+    background: #F8F4E3;
+    
+}
+main .consejos .contenedorinternoConsejos{
+
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    border: 1px solid #e3e3e3;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+
+main .titulo{
+
+    flex-shrink: 1;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: 'Kanit', sans-serif;
+    
+}
+main .consejos .imgConsejos{
+    
+    background-image: url(../img/cesta-mimbre-rosas.jpg);
+
+}
+
+main .consejos .imgConsejos2{
+    background-image: url(../img/flores-amarillas-jarron.jpg);
+    
+}
+
+main .consejos .imgComunConsejos{
+    flex-shrink: 2;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 20px;
+    background-size: cover;
+}
+
+
+
+main .consejos .sectionConsejos{
+    flex-shrink: 3;
+    width: 50%;
+    padding: 30px;
+    text-align: left;
+    text-align: justify;
+    background: #fff;
+}
+
+main .consejos .sectionConsejos article{
+    
+    width: 100%;
+    padding: 10px 20px;
+    margin: 0 auto;
+    
+
+}
+
+main .consejos .sectionConsejos article .subtituloConsejos{
+
+    padding: 20px 0px 5px 0px;
+
+}
+
+main .consejos .sectionConsejos article h4{
+
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main .consejos .sectionConsejos p{
+
+  padding: 10px 0px;
+
+   
+}
+main .consejos .sectionConsejos .boton{
+    
+    width: 100%;
+    text-align: left;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+main .consejos .sectionConsejos .boton a{
+
+    text-decoration: none;
+    color: #fff;
+    background: #68A357;
+    padding: 15px 20px;
+
+   
+}
+
+main .consejos .sectionConsejos .boton a:hover{
+
+    text-decoration: none;
+    color: #fff;
+    background: #754C2F;
+
+   
+}
+
+/*  RESPONSIVE  */
+
+@media screen and (max-width: 1120px){
+
+
+    
+
+    main .efectoParallax h2{
+
+        text-align: left;
+        justify-items: baseline;
+        width: 100%;
+        max-width: 400px;
+        height: 170px;
+        font-size: 30px;
+        top: 0;
+        left: 0;
+        background: rgba(255, 255, 255, 0.9);
+        background-size: cover;
+        padding: 50px;
+        position: relative;
+    }
+
+    main .consejos .contenedorinternoConsejos{
+
+        position: relative;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        display: flex;
+        float: left;
+        margin: 0 auto;
+        width: 100%;
+        box-shadow: 1px 1px 5px #7C7C7C;
+        max-width: 1200px;
+        margin: 0 auto;
+        
+    }
+
+    main .consejos .imgConsejos, main .consejos .imgConsejos2, main .consejos .sectionConsejos{
+
+        width: 100%;
+        
+
+    }
+
+    main .consejos .imgConsejos, main .consejos .imgConsejos2{
+
+        height: 250px;
+        background-position: right;
+
+    }
+
+
+    main div .cambioOrdenResponsive1{
+
+        order: 2;
+
+    }
+    main div .cambioOrdenResponsive2{
+
+        order: 1;
+
+    }
+}
