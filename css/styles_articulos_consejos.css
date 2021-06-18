@@ -1,0 +1,54 @@
+
+
+/*Articulos de ver mas(hugoyguille) */
+
+
+
+#contenido {
+    width: 80%;
+    margin: 30px auto;
+    float: center;
+}
+#cajas {
+    width: 1230px;
+    
+    margin: auto;
+}
+
+#cajas img {
+    width: 450px;
+    
+    padding-top: 150px;
+}
+
+#cajas p {
+    width: 700px;
+    text-align: justify;
+}
+
+#caja1
+    {float: left;
+    ;
+        
+        
+}
+#caja2
+ {
+    float: right;
+    padding: 30px;
+
+}
+ 
+#caja3{
+    float: left;
+}
+
+
+#titulo img {
+    width: 700px;
+    }
+
+#contenido h2{
+    text-align: center
+}
+
