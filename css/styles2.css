@@ -74,8 +74,8 @@ main .consejos .contenedorinternoConsejos{
     display: flex;
     margin: 0 auto;
     width: 100%;
-    box-shadow: 1px 1px 5px #7C7C7C;
     max-width: 1200px;
+    border: 1px solid #e3e3e3;
 
 }
 
@@ -95,14 +95,26 @@ main .titulo{
     
 }
 main .consejos .imgConsejos{
+    
+    background-image: url(../img/cesta-mimbre-rosas.jpg);
+
+}
+
+main .consejos .imgConsejos2{
+    background-image: url(../img/flores-amarillas-jarron.jpg);
+    
+}
+
+main .consejos .imgComunConsejos{
     flex-shrink: 2;
     width: 50%;
-    background-image: url(../img/cesta-mimbre-rosas.jpg);
     background-repeat: no-repeat;
     background-position: right;
     padding: 20px;
     background-size: cover;
 }
+
+
 
 main .consejos .sectionConsejos{
     flex-shrink: 3;
@@ -170,8 +182,26 @@ main .consejos .sectionConsejos .boton a:hover{
 
 /*  RESPONSIVE  */
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1120px){
 
+
+    
+
+    main .efectoParallax h2{
+
+        text-align: left;
+        justify-items: baseline;
+        width: 100%;
+        max-width: 400px;
+        height: 170px;
+        font-size: 30px;
+        top: 0;
+        left: 0;
+        background: rgba(255, 255, 255, 0.9);
+        background-size: cover;
+        padding: 50px;
+        position: relative;
+    }
 
     main .consejos .contenedorinternoConsejos{
 
@@ -189,31 +219,29 @@ main .consejos .sectionConsejos .boton a:hover{
         
     }
 
-    main .consejos .imgConsejos, main .consejos .sectionConsejos{
+    main .consejos .imgConsejos, main .consejos .imgConsejos2, main .consejos .sectionConsejos{
 
         width: 100%;
         
 
     }
 
-    main .consejos .imgConsejos{
+    main .consejos .imgConsejos, main .consejos .imgConsejos2{
 
         height: 250px;
         background-position: right;
 
     }
 
-    main .efectoParallax h2{
 
-        width: 100%;
-        max-width: 400px;
-        font-size: 35px;
-        top: 40%;
-        left: 10%;
-        background: rgba(255, 255, 255, 0.6);
-        background-size: cover;
+    main div .cambioOrdenResponsive1{
 
-        padding: 20px;
+        order: 2;
+
     }
+    main div .cambioOrdenResponsive2{
 
+        order: 1;
+
+    }
 }
